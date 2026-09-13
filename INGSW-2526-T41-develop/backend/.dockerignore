@@ -1,0 +1,14 @@
+# Versiamento e IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Sistemi operativi
+.DS_Store
+Thumbs.db
+
+# Ambiente e documentazione
+.env*
+*.md
+*.log

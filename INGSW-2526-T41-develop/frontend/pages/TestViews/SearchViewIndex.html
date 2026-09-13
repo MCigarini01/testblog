@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ricerca Articoli</title>
+</head>
+
+<body>
+
+    <h1>Ricerca Articoli</h1>
+
+    <form id="searchForm">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Cerca articolo..."
+            required>
+
+        <button type="submit">
+            Cerca
+        </button>
+
+    </form>
+
+    <hr>
+
+    <div id="search-results">
+    </div>
+
+    <br>
+
+    <div id="message">
+    </div>
+
+    <select id="categorySelect">
+
+    <option value="">
+        Categoria
+    </option>
+
+    <option value="1">
+        JavaScript
+    </option>
+
+    <option value="2">
+        PHP
+    </option>
+
+</select>
+
+<button id="categorySearchBtn">
+    Cerca Categoria
+</button>
+
+<br><br>
+
+<select id="tagSelect">
+
+    <option value="">
+        Tag
+    </option>
+
+    <option value="1">
+        Base
+    </option>
+
+    <option value="2">
+        Backend
+    </option>
+
+    <option value="3">
+        Avanzato
+    </option>
+
+</select>
+
+<button id="tagSearchBtn">
+    Cerca Tag
+</button>
+
+   <script
+    type="module"
+    src="../../assets/js/test/MockSearchApp.js">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!-- Title Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom sticky-top">
+
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+        <img
+            src="../assets/images/logo.png"
+            alt="Logo Blog"
+            class="site-logo">
+        </a>
+
+        <!-- Menu -->
+        <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"> Home </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"> Risorse</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"> Guidelines </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"> Chi Siamo </a>
+            </li>
+
+            <li>
+                <div class="container mt-2">
+                <div class="d-flex justify-content-end">
+
+                <input
+                    type="text"
+                    class="form-control search-input"
+                    placeholder="🔍 Cerca">
+                </div>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Bottoni -->
+        <div class="auth-area">
+            <div id="guest-menu">
+                <a href="login.html?" class="btn btn-primary"> Login </a>
+                <a href="registration.html?" class="btn btn-outline-primary"> Registrati </a>
+            </div>
+            <div id="user-menu" style="display:none;">
+                <div class="home-action"><a href="./postCreation.html" class="create-post">Crea Post</a></div>
+                <div class="dropdown">
+                    <button class="dropdown-toggle">
+                    <span id="username">Utente</span>
+                     </button>
+                    <div class="dropdown-menu">
+                        <a href="profile.html?">Modifica Profilo</a>
+                        <a id="my-posts-link" href=>I miei post</a> 
+                        <a href="?logout">Logout</a> 
+                    </div>
+                </div>
+
+        </div>
+
+    </div>
+
+</nav>
